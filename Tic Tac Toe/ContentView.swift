@@ -14,6 +14,7 @@ struct ContentView: View {
                 .font(.title)
                 .bold()
         }
+        .preferredColorScheme(.dark)
         .padding()
     }
 }
